@@ -3,4 +3,4 @@ build:
     web: Dockerfile
 
 run:
-  web: bash -c "flask run -h 0.0.0.0 -p 10000 & python main.py"
+  web: bash -c "flask run -h 0.0.0.0 -p 10000 & python3 main.py"
